@@ -1,0 +1,14 @@
+#####    Psysopg2
+     
+      go to https://www.elephantsql.com 
+      create a new database 
+      create a new table
+      insert value in to table
+      open python on your system
+      import psycopg2
+      conn=psycopg2.connect(dbname="",host="",port="",user="",password="")
+      curr=conn.cursor()
+      curr.execute('query')
+      curr.fetchone()
+      curr.fetchall()
+      conn.close()
